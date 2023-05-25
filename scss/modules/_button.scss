@@ -1,0 +1,17 @@
+.button {
+	display: inline-block;
+	padding: 20px 62px;
+	background-color: var(--color-white);
+	color: var(--color-black);
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: capitalize;
+	transition: color 0.2s ease-in, background-color 0.2s ease-in, transform 0.1s ease;
+	&:hover {
+		color: var(--color-white);
+		background-color: var(--color-shark);
+	}
+	&:active {
+		transform: translateY(2px);
+	}
+}

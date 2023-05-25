@@ -1,0 +1,15 @@
+// base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+// modules
+@import "./modules/logo";
+@import "./modules/burger";
+@import "./modules/button";
+
+// section
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/about";
+@import "./sections/footer";
